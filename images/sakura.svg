@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+    <!-- Background -->
+    <rect width="400" height="300" fill="#2C2825"/>
+    <!-- Wooden serving board -->
+    <rect x="40" y="100" width="320" height="160" rx="6" fill="#6B3221"/>
+    <rect x="40" y="100" width="320" height="6" rx="6" fill="#A8492E"/>
+    <line x1="80" y1="100" x2="80" y2="260" stroke="#4D2515" stroke-width="1"/>
+    <line x1="140" y1="100" x2="140" y2="260" stroke="#4D2515" stroke-width="1"/>
+    <line x1="200" y1="100" x2="200" y2="260" stroke="#4D2515" stroke-width="1"/>
+    <line x1="260" y1="100" x2="260" y2="260" stroke="#4D2515" stroke-width="1"/>
+    <line x1="320" y1="100" x2="320" y2="260" stroke="#4D2515" stroke-width="1"/>
+
+    <!-- Sushi piece 1 - tuna nigiri -->
+    <ellipse cx="100" cy="180" rx="32" ry="20" fill="#FAF3E7"/>
+    <ellipse cx="100" cy="170" rx="30" ry="14" fill="#D14848"/>
+    <line x1="80" y1="170" x2="120" y2="170" stroke="#A93333" stroke-width="0.6"/>
+
+    <!-- Sushi piece 2 - salmon nigiri -->
+    <ellipse cx="180" cy="180" rx="32" ry="20" fill="#FAF3E7"/>
+    <ellipse cx="180" cy="170" rx="30" ry="14" fill="#E88B5C"/>
+    <line x1="160" y1="170" x2="200" y2="170" stroke="#C66B40" stroke-width="0.6"/>
+
+    <!-- Sushi roll (maki) -->
+    <circle cx="260" cy="175" r="22" fill="#2C2825"/>
+    <circle cx="260" cy="175" r="18" fill="#FAF3E7"/>
+    <circle cx="260" cy="175" r="10" fill="#E88B5C"/>
+    <circle cx="260" cy="175" r="4" fill="#4A7C59"/>
+
+    <!-- Another maki roll -->
+    <circle cx="310" cy="200" r="22" fill="#2C2825"/>
+    <circle cx="310" cy="200" r="18" fill="#FAF3E7"/>
+    <circle cx="310" cy="200" r="10" fill="#D14848"/>
+    <circle cx="310" cy="200" r="4" fill="#FAF3E7"/>
+
+    <!-- Wasabi -->
+    <ellipse cx="80" cy="220" rx="14" ry="9" fill="#4A7C59"/>
+    <!-- Ginger -->
+    <ellipse cx="115" cy="225" rx="11" ry="6" fill="#F2D8C6"/>
+    <ellipse cx="125" cy="220" rx="9" ry="5" fill="#E8B89F"/>
+
+    <!-- Chopsticks -->
+    <line x1="60" y1="80" x2="200" y2="50" stroke="#D4A24C" stroke-width="4" stroke-linecap="round"/>
+    <line x1="70" y1="95" x2="210" y2="65" stroke="#D4A24C" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Soy sauce dish -->
+    <ellipse cx="340" cy="125" rx="22" ry="12" fill="#1A1815"/>
+    <ellipse cx="340" cy="122" rx="18" ry="8" fill="#000000"/>
+</svg>

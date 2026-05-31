@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Answer three questions and get personalised restaurant recommendations on Plate &amp; Place.">
+    <meta name="author" content="Edward Morris">
+    <title>Recommendation - Plate &amp; Place</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+<header>
+        <div class="header-inner">
+            <div class="logo-block">
+                <img src="images/logo.svg" alt="Plate and Place logo - a plate with the letter P">
+                <div>
+                    <span class="site-name">Plate &amp; Place</span>
+                    <span class="tagline">Discover. Recommend. Reserve.</span>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="restaurants.html">Restaurants</a></li>
+                    <li><a href="recommend.html" class="current">Recommend</a></li>
+                    <li><a href="reservation.html">Reserve</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-wrapper">
+
+<section class="section">
+            <h1>Find your perfect match</h1>
+            <p class="section-intro">
+                Tell us three things about tonight's plans and we'll show
+                the restaurants that match. The matching runs entirely in
+                your browser.
+            </p>
+
+<form id="recommendForm" action="#" method="get">
+
+<fieldset>
+                    <legend>1. Dietary preference</legend>
+                    <div class="radio-group">
+                        <label><input type="radio" id="dietaryNone"  name="dietary" value="none"> No preference</label>
+                        <label><input type="radio" id="dietaryVegan" name="dietary" value="vegan"> Vegan</label>
+                        <label><input type="radio" id="dietaryHalal" name="dietary" value="halal"> Halal</label>
+                    </div>
+                </fieldset>
+
+<fieldset>
+                    <legend>2. Budget per person</legend>
+                    <div class="radio-group">
+                        <label><input type="radio" id="budgetUnder30" name="budget" value="under30"> Under $30</label>
+                        <label><input type="radio" id="budget30to50"  name="budget" value="30-50"> $30 - $50</label>
+                        <label><input type="radio" id="budget50to80"  name="budget" value="50-80"> $50 - $80</label>
+                        <label><input type="radio" id="budgetOver80"  name="budget" value="over80"> Over $80</label>
+                    </div>
+                </fieldset>
+
+<fieldset>
+                    <legend>3. Dining purpose</legend>
+                    <div class="radio-group">
+                        <label><input type="radio" id="purposeFamily"   name="purpose" value="family"> Family meal</label>
+                        <label><input type="radio" id="purposeDate"     name="purpose" value="date"> Date night</label>
+                        <label><input type="radio" id="purposeBusiness" name="purpose" value="business"> Business / professional</label>
+                    </div>
+                </fieldset>
+
+<div class="form-actions">
+                    <input type="submit" value="Find restaurants">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+        </section>
+
+<section class="section" id="recommendation-results">
+            <h2>How recommendations work</h2>
+            <p>
+                We check each of our six restaurants against the three
+                rules above. Any restaurant that satisfies your dietary
+                need, sits inside your budget tier, and suits your dining
+                purpose is included in the results. Click
+                <strong>Reserve</strong> on any card to carry that choice
+                into the reservation form.
+            </p>
+        </section>
+
+    </main>
+
+<footer>
+        <div class="footer-inner">
+            <div>
+                <h4>Plate &amp; Place</h4>
+                <p>
+                    A student project for COS10005 Web Development at
+                    Swinburne University of Technology, Semester 1, 2026.
+                </p>
+            </div>
+            <div>
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="restaurants.html">Restaurants</a></li>
+                    <li><a href="recommend.html">Recommend</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Account</h4>
+                <ul>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="reservation.html">Make a reservation</a></li>
+                    <li><a href="mailto:hello@plateandplace.example">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Edward Morris (105663107). Built with HTML5, CSS3 and JavaScript.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

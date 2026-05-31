@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Book a table on Plate &amp; Place - choose a restaurant, pay your deposit by voucher or card, and you're set.">
+    <meta name="author" content="Edward Morris">
+    <title>Make a Reservation - Plate &amp; Place</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+<header>
+        <div class="header-inner">
+            <div class="logo-block">
+                <img src="images/logo.svg" alt="Plate and Place logo - a plate with the letter P">
+                <div>
+                    <span class="site-name">Plate &amp; Place</span>
+                    <span class="tagline">Discover. Recommend. Reserve.</span>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="restaurants.html">Restaurants</a></li>
+                    <li><a href="recommend.html">Recommend</a></li>
+                    <li><a href="reservation.html" class="current">Reserve</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-wrapper">
+
+<section class="section">
+            <h1>Reserve a table</h1>
+            <p class="section-intro">
+                Fill in the form below to book a table. If you arrived here from
+                the recommendation page or a restaurant card, your chosen
+                restaurant will already be selected - but you can change it at
+                any time.
+            </p>
+
+<form id="reservationForm"
+                  method="post"
+                  action="http://mercury.swin.edu.au/it105663107/cos10005/regtest.php">
+
+<fieldset>
+                    <legend>Your contact details</legend>
+
+                    <div class="form-row">
+                        <label for="fullName">Full name <span class="help">(required)</span></label>
+                        <input type="text" id="fullName" name="fullName" maxlength="60">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="email">Email address <span class="help">(required)</span></label>
+                        <input type="email" id="email" name="email" maxlength="80">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="phone">Phone number <span class="help">(required, at least 10 digits)</span></label>
+                        <input type="tel" id="phone" name="phone" maxlength="20">
+                    </div>
+                </fieldset>
+
+<fieldset>
+                    <legend>Booking details</legend>
+
+                    <div class="form-row">
+                        <label for="restaurant">Restaurant <span class="help">(required)</span></label>
+                        <select id="restaurant" name="restaurant">
+                            <option value="">-- Choose a restaurant --</option>
+                            <option value="bella">Bella Cucina (Italian)</option>
+                            <option value="sakura">Sakura Sushi (Japanese)</option>
+                            <option value="spice">Spice Garden (Indian)</option>
+                            <option value="green">Green Leaf (Plant-Based)</option>
+                            <option value="prime">The Prime Cut (Steakhouse)</option>
+                            <option value="olive">Olive &amp; Vine (Mediterranean)</option>
+                        </select>
+                        <span class="help">You can change this at any time.</span>
+                    </div>
+
+<div class="form-row">
+                        <label for="reservationDate">Reservation date <span class="help">(required, today or later)</span></label>
+                        <input type="date" id="reservationDate" name="reservationDate">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="reservationTime">Reservation time <span class="help">(required)</span></label>
+                        <input type="time" id="reservationTime" name="reservationTime">
+                    </div>
+
+<div class="form-row">
+                        <label for="guests">Number of guests <span class="help">(required, must be greater than 0)</span></label>
+                        <input type="number" id="guests" name="guests" min="1" max="30" value="2">
+                    </div>
+
+<div class="form-row">
+                        <label for="specialRequests">Special requests <span class="help">(optional)</span></label>
+                        <textarea id="specialRequests" name="specialRequests" rows="3"
+                                  maxlength="500"
+                                  placeholder="Allergies, accessibility needs, birthday cake..."></textarea>
+                    </div>
+                </fieldset>
+
+<fieldset>
+                    <legend>Deposit &amp; payment</legend>
+
+<div class="form-row">
+                        <div class="deposit-display" id="depositDisplay">
+                            Please select a restaurant to see the deposit amount.
+                        </div>
+                        <input type="hidden" id="depositAmount" name="depositAmount" value="">
+                    </div>
+
+<div class="form-row">
+                        <label>Deposit method <span class="help">(required)</span></label>
+                        <div class="radio-group">
+                            <label><input type="radio" id="paymentVoucher" name="paymentMethod" value="voucher"> Voucher</label>
+                            <label><input type="radio" id="paymentOnline" name="paymentMethod" value="online"> Online payment</label>
+                        </div>
+                    </div>
+
+<div class="payment-section" id="voucherSection">
+                        <h4>Voucher payment</h4>
+                        <div class="form-row">
+                            <label for="voucherCode">Voucher code <span class="help">(12 digits)</span></label>
+                            <input type="text" id="voucherCode" name="voucherCode"
+                                   maxlength="12" placeholder="123456789012">
+                        </div>
+                    </div>
+
+<div class="payment-section" id="cardSection">
+                        <h4>Card payment</h4>
+                        <p class="help">
+                            Use fake card information for testing - this is a student
+                            project with no real processing.
+                        </p>
+                        <div class="form-row">
+                            <label for="cardType">Card type</label>
+                            <select id="cardType" name="cardType">
+                                <option value="">-- Select card type --</option>
+                                <option value="visa">Visa (16 digits)</option>
+                                <option value="mastercard">Mastercard (16 digits)</option>
+                                <option value="amex">American Express (15 digits)</option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <label for="cardNumber">Card number</label>
+                            <input type="text" id="cardNumber" name="cardNumber" maxlength="16"
+                                   placeholder="4242424242424242">
+                            <span class="help">Digits only.</span>
+                        </div>
+                    </div>
+
+<div class="form-row">
+                        <label for="billingEmail">Billing email <span class="help">(required)</span></label>
+                        <input type="email" id="billingEmail" name="billingEmail" maxlength="80">
+                        <div class="checkbox-group" style="margin-top:6px;">
+                            <label>
+                                <input type="checkbox" id="sameAsEmail" name="sameAsEmail">
+                                Same as email address above
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+
+<div class="form-actions">
+                    <input type="submit" value="Confirm reservation">
+                    <input type="reset" value="Clear form">
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+<footer>
+        <div class="footer-inner">
+            <div>
+                <h4>Plate &amp; Place</h4>
+                <p>
+                    A student project for COS10005 Web Development at
+                    Swinburne University of Technology, Semester 1, 2026.
+                </p>
+            </div>
+            <div>
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="restaurants.html">Restaurants</a></li>
+                    <li><a href="recommend.html">Recommend</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Account</h4>
+                <ul>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="reservation.html">Make a reservation</a></li>
+                    <li><a href="mailto:hello@plateandplace.example">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Edward Morris (105663107). Built with HTML5, CSS3 and JavaScript.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+    <!-- Warm background -->
+    <rect width="400" height="300" fill="#D4A24C"/>
+    <rect y="180" width="400" height="120" fill="#A8492E"/>
+
+    <!-- Naan bread -->
+    <ellipse cx="90" cy="220" rx="60" ry="20" fill="#E8B870"/>
+    <ellipse cx="90" cy="218" rx="55" ry="17" fill="#F2C98A"/>
+    <!-- Char marks -->
+    <ellipse cx="75" cy="215" rx="6" ry="3" fill="#8B5A2B"/>
+    <ellipse cx="100" cy="220" rx="5" ry="2" fill="#8B5A2B"/>
+    <ellipse cx="115" cy="216" rx="4" ry="2" fill="#8B5A2B"/>
+    <!-- Garlic / herbs -->
+    <ellipse cx="85" cy="213" rx="3" ry="2" fill="#4A7C59"/>
+    <ellipse cx="105" cy="217" rx="2.5" ry="1.5" fill="#4A7C59"/>
+
+    <!-- Curry bowl -->
+    <ellipse cx="260" cy="180" rx="100" ry="20" fill="#FAF3E7"/>
+    <ellipse cx="260" cy="178" rx="92" ry="15" fill="#FFFFFF"/>
+    <ellipse cx="260" cy="175" rx="85" ry="13" fill="#C65D3F"/>
+    <!-- Bowl rim shadow -->
+    <path d="M 175 180 Q 260 220 345 180 L 345 195 Q 260 230 175 195 Z" fill="#FAF3E7"/>
+    <path d="M 175 195 Q 260 225 345 195 L 345 200 Q 260 230 175 200 Z" fill="#E8DCC4"/>
+
+    <!-- Curry surface details -->
+    <circle cx="240" cy="172" r="5" fill="#A8492E"/>
+    <circle cx="270" cy="174" r="4" fill="#8B3A1F"/>
+    <circle cx="285" cy="170" r="3" fill="#A8492E"/>
+    <circle cx="225" cy="174" r="3" fill="#8B3A1F"/>
+    <ellipse cx="255" cy="171" rx="6" ry="3" fill="#D4A24C"/>
+    <!-- Coriander -->
+    <circle cx="260" cy="168" r="2" fill="#4A7C59"/>
+    <circle cx="265" cy="170" r="1.5" fill="#4A7C59"/>
+    <circle cx="245" cy="168" r="1.5" fill="#4A7C59"/>
+    <!-- Cream swirl -->
+    <path d="M 230 168 Q 260 162 290 168" fill="none" stroke="#FAF3E7" stroke-width="2"/>
+
+    <!-- Steam wisps -->
+    <path d="M 220 140 Q 215 125 225 115 Q 220 100 225 90"
+          stroke="#FAF3E7" stroke-width="3" fill="none" opacity="0.5" stroke-linecap="round"/>
+    <path d="M 270 140 Q 275 125 265 115 Q 270 100 265 90"
+          stroke="#FAF3E7" stroke-width="3" fill="none" opacity="0.5" stroke-linecap="round"/>
+    <path d="M 300 140 Q 295 125 305 115"
+          stroke="#FAF3E7" stroke-width="3" fill="none" opacity="0.5" stroke-linecap="round"/>
+
+    <!-- Spices scattered -->
+    <circle cx="170" cy="260" r="4" fill="#8B3A1F"/>
+    <circle cx="190" cy="270" r="3" fill="#D4A24C"/>
+    <circle cx="155" cy="270" r="3" fill="#6B3221"/>
+    <circle cx="180" cy="275" r="2" fill="#A8492E"/>
+</svg>

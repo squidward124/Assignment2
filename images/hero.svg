@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+    <!-- Background: warm gradient room -->
+    <defs>
+        <linearGradient id="wall" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0" stop-color="#F5EBD8"/>
+            <stop offset="1" stop-color="#E8DCC4"/>
+        </linearGradient>
+        <linearGradient id="floor" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0" stop-color="#A8492E"/>
+            <stop offset="1" stop-color="#6B3221"/>
+        </linearGradient>
+    </defs>
+    <rect width="800" height="280" fill="url(#wall)"/>
+    <rect y="280" width="800" height="120" fill="url(#floor)"/>
+
+    <!-- Hanging pendant lamps -->
+    <line x1="200" y1="0" x2="200" y2="50" stroke="#2C2825" stroke-width="2"/>
+    <ellipse cx="200" cy="70" rx="35" ry="22" fill="#D4A24C"/>
+    <ellipse cx="200" cy="68" rx="33" ry="20" fill="#F5C967"/>
+
+    <line x1="400" y1="0" x2="400" y2="40" stroke="#2C2825" stroke-width="2"/>
+    <ellipse cx="400" cy="60" rx="38" ry="24" fill="#D4A24C"/>
+    <ellipse cx="400" cy="58" rx="36" ry="22" fill="#F5C967"/>
+
+    <line x1="600" y1="0" x2="600" y2="50" stroke="#2C2825" stroke-width="2"/>
+    <ellipse cx="600" cy="70" rx="35" ry="22" fill="#D4A24C"/>
+    <ellipse cx="600" cy="68" rx="33" ry="20" fill="#F5C967"/>
+
+    <!-- Wall shelves with bottles -->
+    <rect x="60" y="120" width="180" height="6" fill="#2C2825"/>
+    <rect x="80" y="90" width="14" height="30" fill="#4A7C59"/>
+    <rect x="105" y="80" width="14" height="40" fill="#A8492E"/>
+    <rect x="130" y="92" width="14" height="28" fill="#6B6259"/>
+    <rect x="155" y="85" width="14" height="35" fill="#4A7C59"/>
+    <rect x="180" y="90" width="14" height="30" fill="#A8492E"/>
+    <rect x="205" y="95" width="14" height="25" fill="#D4A24C"/>
+
+    <rect x="560" y="120" width="180" height="6" fill="#2C2825"/>
+    <rect x="580" y="92" width="14" height="28" fill="#A8492E"/>
+    <rect x="605" y="80" width="14" height="40" fill="#4A7C59"/>
+    <rect x="630" y="90" width="14" height="30" fill="#6B6259"/>
+    <rect x="655" y="88" width="14" height="32" fill="#A8492E"/>
+    <rect x="680" y="92" width="14" height="28" fill="#D4A24C"/>
+    <rect x="705" y="85" width="14" height="35" fill="#4A7C59"/>
+
+    <!-- Long centre table -->
+    <rect x="150" y="270" width="500" height="20" fill="#2C2825"/>
+    <rect x="150" y="270" width="500" height="6" fill="#6B3221"/>
+
+    <!-- Tablecloth runner -->
+    <rect x="170" y="262" width="460" height="10" fill="#FAF3E7"/>
+
+    <!-- Plates and food on the table -->
+    <!-- Plate 1 -->
+    <ellipse cx="240" cy="262" rx="40" ry="10" fill="#FFFFFF"/>
+    <ellipse cx="240" cy="260" rx="34" ry="8" fill="#F5EBD8"/>
+    <circle cx="232" cy="258" r="4" fill="#A8492E"/>
+    <circle cx="246" cy="259" r="4" fill="#D4A24C"/>
+    <circle cx="238" cy="262" r="3" fill="#4A7C59"/>
+
+    <!-- Plate 2 -->
+    <ellipse cx="400" cy="262" rx="48" ry="12" fill="#FFFFFF"/>
+    <ellipse cx="400" cy="260" rx="42" ry="10" fill="#F5EBD8"/>
+    <circle cx="388" cy="258" r="5" fill="#C65D3F"/>
+    <circle cx="402" cy="259" r="5" fill="#D4A24C"/>
+    <circle cx="414" cy="258" r="4" fill="#4A7C59"/>
+    <circle cx="396" cy="263" r="3" fill="#6B3221"/>
+
+    <!-- Plate 3 -->
+    <ellipse cx="560" cy="262" rx="40" ry="10" fill="#FFFFFF"/>
+    <ellipse cx="560" cy="260" rx="34" ry="8" fill="#F5EBD8"/>
+    <circle cx="552" cy="258" r="4" fill="#A8492E"/>
+    <circle cx="566" cy="259" r="4" fill="#D4A24C"/>
+    <circle cx="558" cy="262" r="3" fill="#4A7C59"/>
+
+    <!-- Wine glasses -->
+    <path d="M 180 240 L 180 252 L 175 256 L 185 256 L 180 252 M 178 240 Q 178 230 182 230 Q 182 240 178 240 Z"
+          fill="#A8492E" stroke="#2C2825" stroke-width="0.8"/>
+    <path d="M 470 232 Q 470 222 478 222 Q 478 232 470 232 L 474 250 L 469 254 L 479 254 L 474 250"
+          fill="none" stroke="#2C2825" stroke-width="1"/>
+    <ellipse cx="474" cy="228" rx="4" ry="5" fill="#A8492E"/>
+    <path d="M 620 232 Q 620 222 628 222 Q 628 232 620 232 L 624 250 L 619 254 L 629 254 L 624 250"
+          fill="none" stroke="#2C2825" stroke-width="1"/>
+    <ellipse cx="624" cy="228" rx="4" ry="5" fill="#A8492E"/>
+
+    <!-- Chairs (back tops) -->
+    <rect x="210" y="240" width="60" height="6" fill="#2C2825"/>
+    <rect x="370" y="240" width="60" height="6" fill="#2C2825"/>
+    <rect x="530" y="240" width="60" height="6" fill="#2C2825"/>
+
+    <!-- Floor highlight -->
+    <ellipse cx="400" cy="395" rx="320" ry="6" fill="#2C2825" opacity="0.25"/>
+</svg>

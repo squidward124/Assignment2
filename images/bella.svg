@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+    <!-- Warm background -->
+    <rect width="400" height="300" fill="#F5EBD8"/>
+    <!-- Wooden table -->
+    <rect y="220" width="400" height="80" fill="#A8492E"/>
+    <rect y="220" width="400" height="4" fill="#6B3221"/>
+    <!-- Plate -->
+    <ellipse cx="200" cy="210" rx="140" ry="30" fill="#FFFFFF"/>
+    <ellipse cx="200" cy="207" rx="125" ry="25" fill="#FAF3E7"/>
+    <!-- Pasta swirl -->
+    <ellipse cx="200" cy="200" rx="95" ry="18" fill="#D4A24C"/>
+    <!-- Pasta strands (thin curves) -->
+    <path d="M 130 200 Q 150 185 180 195 Q 210 205 240 190 Q 265 180 275 195"
+          fill="none" stroke="#C19243" stroke-width="2"/>
+    <path d="M 125 205 Q 155 195 185 202 Q 215 210 245 197 Q 270 188 280 200"
+          fill="none" stroke="#C19243" stroke-width="2"/>
+    <path d="M 130 210 Q 160 200 190 207 Q 220 215 250 202 Q 270 195 277 205"
+          fill="none" stroke="#A87832" stroke-width="2"/>
+    <!-- Tomato sauce splatter -->
+    <ellipse cx="170" cy="195" rx="20" ry="8" fill="#A8492E"/>
+    <ellipse cx="225" cy="200" rx="15" ry="6" fill="#A8492E"/>
+    <!-- Basil leaves -->
+    <ellipse cx="170" cy="188" rx="8" ry="4" fill="#4A7C59" transform="rotate(-25 170 188)"/>
+    <ellipse cx="220" cy="192" rx="8" ry="4" fill="#4A7C59" transform="rotate(20 220 192)"/>
+    <ellipse cx="195" cy="186" rx="7" ry="3.5" fill="#4A7C59"/>
+    <!-- Parmesan flakes -->
+    <rect x="180" y="183" width="6" height="2" fill="#FAF3E7"/>
+    <rect x="215" y="183" width="6" height="2" fill="#FAF3E7"/>
+    <rect x="155" y="190" width="5" height="2" fill="#FAF3E7"/>
+    <rect x="240" y="190" width="5" height="2" fill="#FAF3E7"/>
+    <!-- Fork -->
+    <rect x="60" y="195" width="6" height="35" fill="#6B6259"/>
+    <rect x="55" y="175" width="3" height="22" fill="#6B6259"/>
+    <rect x="60" y="175" width="3" height="22" fill="#6B6259"/>
+    <rect x="65" y="175" width="3" height="22" fill="#6B6259"/>
+    <rect x="70" y="175" width="3" height="22" fill="#6B6259"/>
+</svg>

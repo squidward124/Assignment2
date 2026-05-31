@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96">
+    <!-- Outer plate ring -->
+    <circle cx="48" cy="48" r="44" fill="#C65D3F"/>
+    <circle cx="48" cy="48" r="38" fill="#FAF3E7"/>
+    <circle cx="48" cy="48" r="33" fill="none" stroke="#D4A24C" stroke-width="2"/>
+    <!-- Stylised "P" -->
+    <text x="48" y="64" font-family="Georgia, serif" font-size="48"
+          font-weight="bold" fill="#A8492E" text-anchor="middle">P</text>
+</svg>
